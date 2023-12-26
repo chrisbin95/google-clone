@@ -71,7 +71,7 @@ function Nav({ dartTheme, setDarkTheme }) {
           </div>
         </div>
         <br />
-        <div className="w-1/3 text-center flex justify-center items-center m-auto">
+        <div className="w-2/3 text-center flex justify-center items-center m-auto">
           <Tabs />
         </div>
         <div className="w-1/3 bg-white"></div>
