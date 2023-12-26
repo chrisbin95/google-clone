@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillMoonFill } from "react-icons/bs";
 import { TiAdjustBrightness } from "react-icons/ti";
-import { CiCircleInfo } from "react-icons/ci";
 import { MdVerified } from "react-icons/md";
 import Search from "./Search";
 import img from "../components/assets/g-logo.jpg";
@@ -64,7 +63,7 @@ function Nav({ dartTheme, setDarkTheme }) {
       <div className="text-white mt-2 tall:mt-2 w-full flex justify-between ned:text-center flex-col-reverse items-start">
         <div className="pl-12 ned:px-6 tall:text-[14px] text-[14px] w-1/3 ned:w-full flex justify-start gap-x-4 items-center ned:mt-2">
           <div>
-            <CiCircleInfo className="w-5 h-5 text-gray-200" />
+            <MdVerified className="w-5 h-5 text-gray-200" />
           </div>
           <div className="text-gray-300">
             About {results.searchInformation?.formattedTotalResults} results
