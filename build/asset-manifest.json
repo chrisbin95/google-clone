@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e648e86.css",
-    "main.js": "/static/js/main.2f377330.js",
+    "main.css": "/static/css/main.570149d7.css",
+    "main.js": "/static/js/main.66f7ad47.js",
     "static/media/g-logo.jpg": "/static/media/g-logo.492c7e8704cc2c59889b.jpg",
     "index.html": "/index.html",
-    "main.5e648e86.css.map": "/static/css/main.5e648e86.css.map",
-    "main.2f377330.js.map": "/static/js/main.2f377330.js.map"
+    "main.570149d7.css.map": "/static/css/main.570149d7.css.map",
+    "main.66f7ad47.js.map": "/static/js/main.66f7ad47.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e648e86.css",
-    "static/js/main.2f377330.js"
+    "static/css/main.570149d7.css",
+    "static/js/main.66f7ad47.js"
   ]
 }
