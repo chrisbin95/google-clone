@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer.jsx";
 import Pagination from "../components/Pagination.js";
 import { useResultContext } from "../contexts/ResultsContentProvider";
-import { BsCircle } from "react-icons/bs";
+import { BsLink, BsOption, BsSearch } from "react-icons/bs";
 import Loading from "./Loading";
 
 function Results() {
@@ -31,12 +31,11 @@ function Results() {
             >
               <a href={link} target="_blank" rel="noreferrer">
                 <p className="tall:text-[18px] text-[25px]  inline-block items-center font-body hover:underline dark:text-blue-500 text-blue-700">
-                  <BsCircle className=" inline-block dark:text-blue-500  x items-start justify-start w-4 h-4 mr-4" />
+                  <BsLink className=" inline-block dark:text-blue-500  x items-start justify-start w-4 h-4 mr-4" />
                   {title}
                 </p>
                 <p className="tall:text-[14px] text-[16px] flex justify-start font-body mt-4 dark:text-gray-300  text-gray-800">
                   {snippet}
-                  <img src={pagemap?.cse_image?.src} alt="" />
                 </p>
               </a>
             </div>
@@ -50,8 +49,8 @@ function Results() {
     case "/videos":
       return (
         <div className="">
-          <div className="flex justify-center dark:bg-gray-800 bg-gray-200 max-w-[400px] mt-[80px] shadow-lg rounded-lg font-body uppercase my-0 mx-auto h-[100px] items-center tall:text-[14px] text-[16px]">
-            couldn't find an API :D
+          <div className="flex justify-center dark:bg-gray-800 bg-gray-200 max-w-[400px] mt-[80px] shadow-lg rounded-lg font-body my-0 mx-auto h-[100px] items-center tall:text-[14px] text-[16px]">
+          &#9888; Invalid Request
           </div>
           <Footer />
         </div>
