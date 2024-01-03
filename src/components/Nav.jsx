@@ -61,11 +61,11 @@ function Nav({ dartTheme, setDarkTheme }) {
       </div>
 
       <div className="text-white mt-2 tall:mt-2 w-full flex justify-between ned:text-center flex-col-reverse items-start">
-        <div className="pl-12 ned:px-6 tall:text-[14px] text-[14px] w-1/3 ned:w-full flex justify-start gap-x-4 items-center ned:mt-2 ml-16">
-          <div>
-            <MdVerified className="w-5 h-5 text-gray-200" />
-          </div>
-          <div className="text-gray-300">
+        <div className="pl-12 ned:px-6 tall:text-[14px] text-[14px] w-1/3 ned:w-full flex justify-start gap-x-4 items-center ned:mt-2 ml-1 mr-1">
+          <div className="text-gray-300 text-center">
+          <span>
+            <MdVerified className="w-5 h-5 text-gray-200 inline mr-2" />
+          </span>
             About {results.searchInformation?.formattedTotalResults} results
             (<i>{results.searchInformation?.formattedSearchTime} seconds</i>)
           </div>
